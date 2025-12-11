@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Traffic Signal System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>🚦 Smart Density-Based Traffic Signal System</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Analyze Traffic</button>
+        </form>
+
+        {% if output_img %}
+        <div class="results">
+            <h2>Detection Output</h2>
+            <img src="{{ output_img }}" width="60%">
+
+            <h2>Lane Summary</h2>
+            <pre>{{ summary }}</pre>
+
+            <h2>Traffic Signal Simulation</h2>
+            <pre>{{ signal_output }}</pre>
+        </div>
+        {% endif %}
+
+    </div>
+</body>
+</html>

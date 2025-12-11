@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    background: rgba(0,0,0,0.55);
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    animation: glow 2s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px white; }
+    50% { text-shadow: 0 0 25px cyan; }
+    100% { text-shadow: 0 0 10px white; }
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #0077ff, #00ffaa);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+pre {
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
