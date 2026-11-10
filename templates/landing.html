@@ -1,0 +1,275 @@
+{% extends 'base.html' %}
+{% block title %}Smart Traffic System — AI-Powered Signals{% endblock %}
+{% block content %}
+<!-- Hero Section with Stunning Background -->
+<section class="relative min-h-[95vh] flex items-center justify-center overflow-hidden">
+  <!-- Background Image with Parallax Effect -->
+  <div class="absolute inset-0 z-0">
+    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+         alt="Modern city traffic intersection" 
+         class="w-full h-full object-cover scale-110 animate-zoom">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-slate-800/80 to-emerald-900/75"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_70%)]"></div>
+  </div>
+
+  <!-- Animated Background Elements -->
+  <div class="absolute inset-0 z-0 overflow-hidden">
+    <div class="absolute top-20 left-10 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+  </div>
+
+  <!-- Hero Content -->
+  <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 text-center">
+    <div class="max-w-4xl mx-auto text-white animate-fade-in-up">
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-effect mb-8 animate-fade-in-up">
+        <i class="fas fa-brain text-emerald-400"></i>
+        <span class="text-sm font-semibold">Powered by AI & Computer Vision</span>
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-6">
+        <span class="block">Density-Based</span>
+        <span class="block bg-gradient-to-r from-emerald-400 via-green-300 to-emerald-500 bg-clip-text text-transparent">
+          Smart Traffic Control
+        </span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="mt-6 text-xl sm:text-2xl text-slate-200 leading-relaxed max-w-3xl mx-auto">
+        Revolutionize traffic management with AI-powered vehicle detection and adaptive signal timing. 
+        Reduce congestion, improve flow, and create smarter cities.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="{{ url_for('predict') }}" 
+           class="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-8 py-4 text-lg font-bold text-white shadow-2xl shadow-emerald-500/50 transition-all hover:scale-105 hover:shadow-emerald-500/70">
+          <i class="fas fa-rocket"></i>
+          <span>Start Prediction</span>
+          <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+        </a>
+        <a href="{{ url_for('ambulance_page') }}" 
+           class="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 px-8 py-4 text-lg font-bold text-white shadow-2xl shadow-rose-500/40 transition-all hover:scale-105 hover:shadow-rose-500/60">
+          <i class="fas fa-ambulance"></i>
+          <span>Ambulance Detection</span>
+          <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+        </a>
+        <a href="{{ url_for('about') }}" 
+           class="inline-flex items-center gap-3 rounded-2xl glass-effect hover:bg-white/20 px-8 py-4 text-lg font-semibold text-white border border-white/30 transition-all hover:scale-105">
+          <i class="fas fa-info-circle"></i>
+          <span>Learn More</span>
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div class="glass-effect rounded-2xl p-6 backdrop-blur-lg">
+          <div class="text-3xl font-bold text-emerald-400">AI-Powered</div>
+          <div class="text-sm text-slate-300 mt-2">YOLO Detection</div>
+        </div>
+        <div class="glass-effect rounded-2xl p-6 backdrop-blur-lg">
+          <div class="text-3xl font-bold text-emerald-400">Real-Time</div>
+          <div class="text-sm text-slate-300 mt-2">Adaptive Signals</div>
+        </div>
+        <div class="glass-effect rounded-2xl p-6 backdrop-blur-lg">
+          <div class="text-3xl font-bold text-emerald-400">Smart</div>
+          <div class="text-sm text-slate-300 mt-2">Traffic Flow</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
+    <i class="fas fa-chevron-down text-white/60 text-2xl"></i>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="relative py-24 bg-gradient-to-b from-white to-slate-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl sm:text-5xl font-extrabold text-slate-900 mb-4">
+        Powerful <span class="gradient-text">Features</span>
+      </h2>
+      <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+        Everything you need for intelligent traffic management
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-white text-2xl mb-6 shadow-lg shadow-emerald-500/30">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">AI-Powered Detection</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Leverages state-of-the-art YOLO models to detect vehicles with high accuracy and estimate lane-wise density from traffic images in real-time.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 text-white text-2xl mb-6 shadow-lg shadow-blue-500/30">
+            <i class="fas fa-traffic-light"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Adaptive Signal Timing</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Intelligently computes green time suggestions proportional to vehicle density for each lane, optimizing traffic flow dynamically.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 text-white text-2xl mb-6 shadow-lg shadow-purple-500/30">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Actionable Insights</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Get detailed annotated outputs, lane summaries, and signal timing recommendations to validate and implement traffic decisions quickly.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-orange-600 text-white text-2xl mb-6 shadow-lg shadow-orange-500/30">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Quadrant Analysis</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Automatically divides traffic scenes into four quadrants for precise lane-wise vehicle counting and density estimation.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-cyan-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 text-white text-2xl mb-6 shadow-lg shadow-cyan-500/30">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Visual Annotations</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Beautiful visual overlays highlight detected vehicles, lane divisions, and the winning lane with green signal priority.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 6 -->
+      <div class="group relative rounded-3xl bg-white p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100">
+        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-pink-500/10 to-transparent rounded-bl-full"></div>
+        <div class="relative">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-pink-500 to-pink-600 text-white text-2xl mb-6 shadow-lg shadow-pink-500/30">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Fast Processing</h3>
+          <p class="text-slate-600 leading-relaxed">
+            Lightning-fast image processing and analysis with optimized algorithms for real-time traffic management applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="relative py-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl sm:text-5xl font-extrabold mb-4">
+        How It <span class="bg-gradient-to-r from-emerald-400 to-emerald-300 bg-clip-text text-transparent">Works</span>
+      </h2>
+      <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+        Simple steps to intelligent traffic control
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+      <!-- Step 1 -->
+      <div class="text-center">
+        <div class="relative inline-flex items-center justify-center mb-6">
+          <div class="absolute inset-0 bg-emerald-500/20 rounded-full blur-xl"></div>
+          <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-3xl font-bold shadow-lg">
+            1
+          </div>
+        </div>
+        <h3 class="text-xl font-bold mb-3">Upload Image</h3>
+        <p class="text-slate-400">Upload a traffic intersection image</p>
+      </div>
+
+      <!-- Arrow -->
+      <div class="hidden md:flex items-center justify-center">
+        <i class="fas fa-arrow-right text-3xl text-emerald-400"></i>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="text-center">
+        <div class="relative inline-flex items-center justify-center mb-6">
+          <div class="absolute inset-0 bg-blue-500/20 rounded-full blur-xl"></div>
+          <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-3xl font-bold shadow-lg">
+            2
+          </div>
+        </div>
+        <h3 class="text-xl font-bold mb-3">AI Detection</h3>
+        <p class="text-slate-400">YOLO detects all vehicles</p>
+      </div>
+
+      <!-- Arrow -->
+      <div class="hidden md:flex items-center justify-center">
+        <i class="fas fa-arrow-right text-3xl text-emerald-400"></i>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="text-center">
+        <div class="relative inline-flex items-center justify-center mb-6">
+          <div class="absolute inset-0 bg-purple-500/20 rounded-full blur-xl"></div>
+          <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-3xl font-bold shadow-lg">
+            3
+          </div>
+        </div>
+        <h3 class="text-xl font-bold mb-3">Analyze & Calculate</h3>
+        <p class="text-slate-400">Count vehicles per lane</p>
+      </div>
+
+      <!-- Arrow -->
+      <div class="hidden md:flex items-center justify-center">
+        <i class="fas fa-arrow-right text-3xl text-emerald-400"></i>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="text-center">
+        <div class="relative inline-flex items-center justify-center mb-6">
+          <div class="absolute inset-0 bg-orange-500/20 rounded-full blur-xl"></div>
+          <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center text-3xl font-bold shadow-lg">
+            4
+          </div>
+        </div>
+        <h3 class="text-xl font-bold mb-3">Get Results</h3>
+        <p class="text-slate-400">Receive signal timing recommendations</p>
+      </div>
+    </div>
+
+    <div class="mt-16 text-center">
+      <a href="{{ url_for('predict') }}" 
+         class="inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-8 py-4 text-lg font-bold text-white shadow-2xl shadow-emerald-500/50 transition-all hover:scale-105">
+        <i class="fas fa-play"></i>
+        <span>Try It Now</span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}

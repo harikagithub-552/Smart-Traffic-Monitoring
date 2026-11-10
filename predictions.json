@@ -1,0 +1,1690 @@
+{
+  "predictions": [
+    {
+      "id": 1,
+      "timestamp": "2026-02-23T10:07:27.076932",
+      "image_filename": "screenshot_20241228-143012_png.rf.bbd49e5bc2e820ab2766df84c28f7a44.jpg",
+      "lanes": [
+        1,
+        10,
+        7,
+        14
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-02-23T10:08:48.342398",
+      "image_filename": "screenshot_20241228-143018_png.rf.7340ce7a43d8fccd273e39d693ffa0d9.jpg",
+      "lanes": [
+        0,
+        8,
+        4,
+        13
+      ],
+      "total_vehicles": 25,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 4: 13 vehicles \u2192 Green Time = 2.6 sec\n"
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-02-23T10:09:18.907773",
+      "image_filename": "screenshot_20241228-143018_png.rf.7340ce7a43d8fccd273e39d693ffa0d9.jpg",
+      "lanes": [
+        0,
+        8,
+        4,
+        13
+      ],
+      "total_vehicles": 25,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 4: 13 vehicles \u2192 Green Time = 2.6 sec\n"
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-02-23T10:20:05.387666",
+      "image_filename": "screenshot_20241228-143139_png.rf.7205c445bd0c906224447e7b30bfbad8.jpg",
+      "lanes": [
+        0,
+        11,
+        5,
+        16
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 16 vehicles \u2192 Green Time = 3.2 sec\n"
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-02-23T10:20:40.261927",
+      "image_filename": "screenshot_20241228-143013_png.rf.eb38f80f3d1572d266807db1c5f920bf.jpg",
+      "lanes": [
+        1,
+        10,
+        6,
+        16
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 3: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 4: 16 vehicles \u2192 Green Time = 3.2 sec\n"
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-02-23T10:24:35.229101",
+      "image_filename": "screenshot_20241228-143215_png.rf.0e7b5808455eb17c2451c86fcf01e2a9.jpg",
+      "lanes": [
+        4,
+        0,
+        18,
+        14
+      ],
+      "total_vehicles": 36,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 18 vehicles \u2192 Green Time = 3.6 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-03-12T16:44:22.239077",
+      "image_filename": "screenshot_20241228-143017_png.rf.9ae3c685d1f2ec86e11ad50cd2a1044f.jpg",
+      "lanes": [
+        0,
+        8,
+        4,
+        13
+      ],
+      "total_vehicles": 25,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 4: 13 vehicles \u2192 Green Time = 2.6 sec\n"
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-03-23T14:49:48.208110",
+      "image_filename": "screenshot_20241228-143219_png.rf.4c93ce13f4b02783c2604ebbd3f338c5.jpg",
+      "lanes": [
+        4,
+        0,
+        19,
+        4
+      ],
+      "total_vehicles": 27,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 19 vehicles \u2192 Green Time = 3.8 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-03-24T12:37:56.991812",
+      "image_filename": "WhatsApp Image 2026-03-24 at 12.19.03 PM.jpeg",
+      "lanes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emergency": false,
+      "emergency_lane": null,
+      "total_vehicles": 0,
+      "winning_lane": null,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-03-24T13:48:14.981644",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "emergency": false,
+      "emergency_lane": null,
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 11,
+      "timestamp": "2026-03-24T13:58:46.397280",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "emergency": false,
+      "emergency_lane": null,
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-03-24T13:59:00.838700",
+      "image_filename": "WhatsApp Image 2026-03-24 at 12.19.03 PM.jpeg",
+      "lanes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "emergency": false,
+      "emergency_lane": null,
+      "total_vehicles": 0,
+      "winning_lane": null,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-03-24T13:59:20.767973",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "emergency": false,
+      "emergency_lane": null,
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-03-27T11:25:42.022066",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-03-27T11:52:55.826364",
+      "image_filename": "ezgif-frame-032-1-_jpg.rf.7da3f991ce7a75efef3d97a17a70eb73.jpg",
+      "lanes": [
+        0,
+        0,
+        0,
+        999
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 4: AMBULANCE PRIORITY \u2192 GREEN\n"
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-03-27T11:53:44.259621",
+      "image_filename": "ezgif-frame-030_jpg.rf.942a1076e793d4046225f0ca03524fed.jpg",
+      "lanes": [
+        0,
+        0,
+        0,
+        999
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 4: AMBULANCE PRIORITY \u2192 GREEN\n"
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-03-27T12:00:56.617854",
+      "image_filename": "ezgif-frame-030_jpg.rf.942a1076e793d4046225f0ca03524fed.jpg",
+      "lanes": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "total_vehicles": 6,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-03-27T12:03:19.425243",
+      "image_filename": "ezgif-frame-030_jpg.rf.942a1076e793d4046225f0ca03524fed.jpg",
+      "lanes": [
+        4,
+        1,
+        1,
+        0
+      ],
+      "total_vehicles": 6,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-03-27T12:03:46.247803",
+      "image_filename": "18_16_11zon_jpg.rf.f3523bcb1610aaa0de67181a4a8dd148.jpg",
+      "lanes": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "total_vehicles": 1,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 20,
+      "timestamp": "2026-03-27T12:04:14.072095",
+      "image_filename": "71_jpg.rf.87f5f0f2611b70b475df6ebc4e6ebe4c.jpg",
+      "lanes": [
+        2,
+        3,
+        0,
+        0
+      ],
+      "total_vehicles": 5,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 21,
+      "timestamp": "2026-03-27T12:10:35.348831",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-03-27T12:11:17.471770",
+      "image_filename": "ezgif-frame-032-1-_jpg.rf.7da3f991ce7a75efef3d97a17a70eb73.jpg",
+      "lanes": [
+        0,
+        0,
+        999,
+        0
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 3: PRIORITY VEHICLE \u2192 GREEN\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-03-27T12:17:49.367925",
+      "image_filename": "Screenshot 2026-03-27 121713.png",
+      "lanes": [
+        0,
+        0,
+        999,
+        0
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 3: PRIORITY VEHICLE \u2192 GREEN\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-03-27T12:19:58.638859",
+      "image_filename": "WhatsApp Image 2026-03-24 at 1.47.20 PM.jpeg",
+      "lanes": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "total_vehicles": 3,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-03-27T12:25:02.854109",
+      "image_filename": "Screenshot 2026-03-27 121713.png",
+      "lanes": [
+        0,
+        0,
+        999,
+        0
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 3: PRIORITY VEHICLE \u2192 GREEN\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 26,
+      "timestamp": "2026-03-28T11:21:13.698533",
+      "image_filename": "WhatsApp Image 2026-03-28 at 11.11.45 AM.jpeg",
+      "lanes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_vehicles": 0,
+      "winning_lane": null,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-03-28T11:23:06.059458",
+      "image_filename": "Screenshot 2026-03-27 144911.png",
+      "lanes": [
+        0,
+        0,
+        0,
+        999
+      ],
+      "total_vehicles": 999,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\n\ud83d\ude91 Lane 4: PRIORITY VEHICLE \u2192 GREEN\n"
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-03-28T11:24:49.753882",
+      "image_filename": "screenshot_20241228-141218_png.rf.81a1bdedd8b27044a54ca7bf076b13b8.jpg",
+      "lanes": [
+        8,
+        3,
+        18,
+        10
+      ],
+      "total_vehicles": 39,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 18 vehicles \u2192 Green Time = 3.6 sec\nLane 4: 10 vehicles \u2192 Green Time = 2.0 sec\n"
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-03-28T11:44:28.134153",
+      "image_filename": "WhatsApp Image 2026-03-28 at 11.43.32 AM.jpeg",
+      "lanes": [
+        3,
+        0,
+        5,
+        0
+      ],
+      "total_vehicles": 8,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-03-28T11:49:27.216674",
+      "image_filename": "1.jpeg",
+      "lanes": [
+        9,
+        6,
+        15,
+        29
+      ],
+      "total_vehicles": 59,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 29 vehicles \u2192 Green Time = 5.8 sec\n"
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-03-28T11:58:25.168974",
+      "image_filename": "2.jpeg",
+      "lanes": [
+        3,
+        7,
+        2,
+        7
+      ],
+      "total_vehicles": 19,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-03-28T12:10:19.155063",
+      "image_filename": "8.jpeg",
+      "lanes": [
+        1,
+        4,
+        3,
+        6
+      ],
+      "total_vehicles": 14,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-03-28T12:12:38.970647",
+      "image_filename": "WhatsApp Image 2026-03-28 at 11.43.25 AM.jpeg",
+      "lanes": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "total_vehicles": 2,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-03-28T12:17:07.884741",
+      "image_filename": "9.jpeg",
+      "lanes": [
+        1,
+        3,
+        1,
+        6
+      ],
+      "total_vehicles": 11,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-03-28T12:17:49.642123",
+      "image_filename": "9.jpeg",
+      "lanes": [
+        1,
+        3,
+        1,
+        6
+      ],
+      "total_vehicles": 11,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-03-28T17:42:46.455034",
+      "image_filename": "screenshot_20241228-141310_png.rf.d697fa7d7fcda55253f56039104ead9a.jpg",
+      "lanes": [
+        0,
+        9,
+        7,
+        7
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-03-28T17:46:18.897932",
+      "image_filename": "screenshot_20241228-141220_png.rf.4da714feffaac204b646cbcdcc2d0ac8.jpg",
+      "lanes": [
+        9,
+        3,
+        25,
+        5
+      ],
+      "total_vehicles": 42,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 25 vehicles \u2192 Green Time = 5.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-03-28T17:47:19.884551",
+      "image_filename": "screenshot_20241228-141232_png.rf.a2e0e32c3ce1d3d53f43f7dd07a7456c.jpg",
+      "lanes": [
+        7,
+        7,
+        15,
+        3
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 39,
+      "timestamp": "2026-03-29T09:19:35.714328",
+      "image_filename": "screenshot_20241228-134403_png.rf.c3bb529ab335ead578c2d3a2e27d5215.jpg",
+      "lanes": [
+        8,
+        8,
+        18,
+        0
+      ],
+      "total_vehicles": 34,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 18 vehicles \u2192 Green Time = 3.6 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 40,
+      "timestamp": "2026-03-29T09:20:42.053418",
+      "image_filename": "screenshot_20241228-143658_png.rf.bba8767a1208c6f1fe322b35d2ac06ea.jpg",
+      "lanes": [
+        0,
+        9,
+        9,
+        10
+      ],
+      "total_vehicles": 28,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 4: 10 vehicles \u2192 Green Time = 2.0 sec\n"
+    },
+    {
+      "id": 41,
+      "timestamp": "2026-03-29T09:21:50.060420",
+      "image_filename": "screenshot_20241228-143703_png.rf.b511ebb73048b4ee0f89f0f5632ebc58.jpg",
+      "lanes": [
+        4,
+        9,
+        7,
+        11
+      ],
+      "total_vehicles": 31,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 11 vehicles \u2192 Green Time = 2.2 sec\n"
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-03-29T09:22:50.949335",
+      "image_filename": "screenshot_20241228-141214_png.rf.d3aea4a4a19f48ca77addc356e6dc373.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 43,
+      "timestamp": "2026-03-29T09:23:26.529710",
+      "image_filename": "screenshot_20241228-141215_png.rf.714cc01587c6c5a78a161dd0d2b1d7d0.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-03-29T09:25:47.703426",
+      "image_filename": "SCREEN~1.JPG",
+      "lanes": [
+        7,
+        3,
+        13,
+        14
+      ],
+      "total_vehicles": 37,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 45,
+      "timestamp": "2026-03-29T09:27:00.014756",
+      "image_filename": "screenshot_20241228-141215_png.rf.714cc01587c6c5a78a161dd0d2b1d7d0.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 46,
+      "timestamp": "2026-03-29T09:27:50.994989",
+      "image_filename": "SCREEN~1.JPG",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 47,
+      "timestamp": "2026-03-29T09:29:04.220415",
+      "image_filename": "screenshot_20241228-141223_png.rf.d7415d746a27f0b5caf537e82d748b82.jpg",
+      "lanes": [
+        8,
+        6,
+        20,
+        1
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 20 vehicles \u2192 Green Time = 4.0 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 48,
+      "timestamp": "2026-03-29T09:29:41.909887",
+      "image_filename": "screenshot_20241228-141223_png.rf.d7415d746a27f0b5caf537e82d748b82.jpg",
+      "lanes": [
+        8,
+        6,
+        20,
+        1
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 20 vehicles \u2192 Green Time = 4.0 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 49,
+      "timestamp": "2026-03-29T09:31:09.160329",
+      "image_filename": "SCREEN~2.JPG",
+      "lanes": [
+        8,
+        6,
+        20,
+        1
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 20 vehicles \u2192 Green Time = 4.0 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 50,
+      "timestamp": "2026-03-29T09:32:07.957860",
+      "image_filename": "screenshot_20241228-141224_png.rf.9a9993eaa5e1e40c31855e70a0ee2515.jpg",
+      "lanes": [
+        9,
+        6,
+        18,
+        4
+      ],
+      "total_vehicles": 37,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 18 vehicles \u2192 Green Time = 3.6 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 51,
+      "timestamp": "2026-03-29T09:32:41.189096",
+      "image_filename": "screenshot_20241228-141225_png.rf.cd410198640091209af4b4e02ab6c2f4.jpg",
+      "lanes": [
+        8,
+        6,
+        14,
+        4
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 14 vehicles \u2192 Green Time = 2.8 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 52,
+      "timestamp": "2026-03-29T09:33:27.918433",
+      "image_filename": "screenshot_20241228-141231_png.rf.c2b184c965a8fb7035737c4d9f342d0f.jpg",
+      "lanes": [
+        7,
+        7,
+        16,
+        3
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 53,
+      "timestamp": "2026-03-29T09:34:38.880607",
+      "image_filename": "SCREEN~3.JPG",
+      "lanes": [
+        7,
+        6,
+        14,
+        4
+      ],
+      "total_vehicles": 31,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 14 vehicles \u2192 Green Time = 2.8 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 54,
+      "timestamp": "2026-03-29T09:37:21.067638",
+      "image_filename": "screenshot_20241228-131359_png.rf.1883c8cf3e8bc291233d8a28caf7d1dc.jpg",
+      "lanes": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "total_vehicles": 3,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 55,
+      "timestamp": "2026-03-29T09:39:25.996110",
+      "image_filename": "screenshot_20241228-141226_png.rf.4d0262505d9d9da5dc3ad919f0c84713.jpg",
+      "lanes": [
+        7,
+        6,
+        14,
+        4
+      ],
+      "total_vehicles": 31,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 14 vehicles \u2192 Green Time = 2.8 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 56,
+      "timestamp": "2026-03-29T09:39:50.372710",
+      "image_filename": "screenshot_20241228-141227_png.rf.7248e9187729941d9fda3938e463d437.jpg",
+      "lanes": [
+        7,
+        6,
+        14,
+        4
+      ],
+      "total_vehicles": 31,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 14 vehicles \u2192 Green Time = 2.8 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 57,
+      "timestamp": "2026-03-29T09:40:54.684538",
+      "image_filename": "screenshot_20241228-141229_png.rf.e3f84536b38e05b059a35916323dbd18.jpg",
+      "lanes": [
+        7,
+        6,
+        16,
+        2
+      ],
+      "total_vehicles": 31,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 58,
+      "timestamp": "2026-03-29T09:41:29.801778",
+      "image_filename": "screenshot_20241228-141230_png.rf.5018acaa3547ff724270be845cefbc08.jpg",
+      "lanes": [
+        7,
+        7,
+        16,
+        2
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 59,
+      "timestamp": "2026-03-29T09:42:04.624816",
+      "image_filename": "screenshot_20241228-141231_png.rf.c2b184c965a8fb7035737c4d9f342d0f.jpg",
+      "lanes": [
+        7,
+        7,
+        16,
+        3
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 60,
+      "timestamp": "2026-03-29T09:43:23.377941",
+      "image_filename": "screenshot_20241228-141232_png.rf.a2e0e32c3ce1d3d53f43f7dd07a7456c.jpg",
+      "lanes": [
+        7,
+        7,
+        15,
+        3
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 61,
+      "timestamp": "2026-03-29T09:45:51.032523",
+      "image_filename": "SCREEN~3.JPG",
+      "lanes": [
+        7,
+        7,
+        15,
+        3
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 62,
+      "timestamp": "2026-03-29T09:47:16.432510",
+      "image_filename": "screenshot_20241228-141242_png.rf.ebdecff4af6e0e6d1f8c8edc2de61e5e.jpg",
+      "lanes": [
+        9,
+        13,
+        10,
+        5
+      ],
+      "total_vehicles": 37,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 63,
+      "timestamp": "2026-03-29T09:47:50.257039",
+      "image_filename": "screenshot_20241228-141243_png.rf.9ecb42d9d8cfa66b8bd42cb032f6067c.jpg",
+      "lanes": [
+        9,
+        11,
+        10,
+        5
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 64,
+      "timestamp": "2026-03-29T09:48:39.266023",
+      "image_filename": "screenshot_20241228-141244_png.rf.6af5c46def0db46d907833a3cdd0b0d5.jpg",
+      "lanes": [
+        9,
+        10,
+        10,
+        5
+      ],
+      "total_vehicles": 34,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 65,
+      "timestamp": "2026-03-29T09:49:30.062461",
+      "image_filename": "screenshot_20241228-141245_png.rf.206ef081bc81a6a42300c779e2827dd6.jpg",
+      "lanes": [
+        9,
+        9,
+        10,
+        5
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 66,
+      "timestamp": "2026-03-29T09:49:53.619888",
+      "image_filename": "screenshot_20241228-141246_png.rf.2cbbaca9cf3a82218580d98462e6085e.jpg",
+      "lanes": [
+        9,
+        9,
+        10,
+        5
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 67,
+      "timestamp": "2026-03-29T09:50:17.096298",
+      "image_filename": "screenshot_20241228-141247_png.rf.05b6bef1ccbe8625347b2f86099b3180.jpg",
+      "lanes": [
+        9,
+        9,
+        10,
+        5
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 68,
+      "timestamp": "2026-03-29T09:51:35.192129",
+      "image_filename": "screenshot_20241228-141302_png.rf.5f816fc9ed8a7edbb4a7420a24e71d36.jpg",
+      "lanes": [
+        2,
+        12,
+        3,
+        7
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 69,
+      "timestamp": "2026-03-29T09:52:11.134003",
+      "image_filename": "screenshot_20241228-141303_png.rf.2c444c4305fe332e5d41d782fe23aa85.jpg",
+      "lanes": [
+        0,
+        12,
+        3,
+        6
+      ],
+      "total_vehicles": 21,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 70,
+      "timestamp": "2026-03-29T09:53:35.986939",
+      "image_filename": "SCREEN~4.JPG",
+      "lanes": [
+        0,
+        12,
+        3,
+        6
+      ],
+      "total_vehicles": 21,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 71,
+      "timestamp": "2026-03-29T09:54:55.185517",
+      "image_filename": "screenshot_20241228-141304_png.rf.928d10fe3650d87ef3682d077e9d3611.jpg",
+      "lanes": [
+        0,
+        11,
+        4,
+        5
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 72,
+      "timestamp": "2026-03-29T09:56:44.339634",
+      "image_filename": "screenshot_20241228-141305_png.rf.e04c5d5941d9be515eb16e28818c96c0.jpg",
+      "lanes": [
+        0,
+        9,
+        5,
+        6
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 73,
+      "timestamp": "2026-03-29T10:00:50.826341",
+      "image_filename": "SCF63D~1.JPG",
+      "lanes": [
+        0,
+        9,
+        5,
+        6
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 74,
+      "timestamp": "2026-03-29T10:01:50.030178",
+      "image_filename": "screenshot_20241228-141306_png.rf.4114c8947482325f6e9fa6700e291b93.jpg",
+      "lanes": [
+        0,
+        9,
+        6,
+        7
+      ],
+      "total_vehicles": 22,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 75,
+      "timestamp": "2026-03-29T10:02:37.248040",
+      "image_filename": "screenshot_20241228-141302_png.rf.5f816fc9ed8a7edbb4a7420a24e71d36.jpg",
+      "lanes": [
+        2,
+        12,
+        3,
+        7
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 76,
+      "timestamp": "2026-03-29T10:03:12.656581",
+      "image_filename": "screenshot_20241228-141308_png.rf.a2278352a1f42ddc69f37877fc5cb09f.jpg",
+      "lanes": [
+        0,
+        9,
+        7,
+        7
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 77,
+      "timestamp": "2026-03-29T10:04:27.922519",
+      "image_filename": "screenshot_20241228-141310_png.rf.d697fa7d7fcda55253f56039104ead9a.jpg",
+      "lanes": [
+        0,
+        9,
+        7,
+        7
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 78,
+      "timestamp": "2026-03-29T10:05:31.927851",
+      "image_filename": "screenshot_20241228-141311_png.rf.c7904f61d124a6e262c7aa4725f01c02.jpg",
+      "lanes": [
+        0,
+        9,
+        7,
+        7
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 3: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 4: 7 vehicles \u2192 Green Time = 1.4 sec\n"
+    },
+    {
+      "id": 79,
+      "timestamp": "2026-03-29T10:06:40.418007",
+      "image_filename": "screenshot_20241228-141014_png.rf.e3e2656a67fa6c607676055f81d431f5.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        6
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 80,
+      "timestamp": "2026-03-29T10:07:57.838203",
+      "image_filename": "screenshot_20241228-141015_png.rf.abcf7e7bb8f2ea69c5ca19a5b3d43182.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        5
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 81,
+      "timestamp": "2026-03-29T10:09:10.063793",
+      "image_filename": "screenshot_20241228-141016_png.rf.50e95338adfb5692d620190faa5a2c02.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        4
+      ],
+      "total_vehicles": 22,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 82,
+      "timestamp": "2026-03-29T10:10:13.522401",
+      "image_filename": "screenshot_20241228-141017_png.rf.73124d6a5c565d63a35d9a2c20d4c363.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 83,
+      "timestamp": "2026-03-29T10:16:00.708402",
+      "image_filename": "screenshot_20241228-141017_png.rf.73124d6a5c565d63a35d9a2c20d4c363.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 84,
+      "timestamp": "2026-03-29T10:16:45.401588",
+      "image_filename": "screenshot_20241228-141018_png.rf.4c477be0dc2005ff2fa89912b2bb421b.jpg",
+      "lanes": [
+        2,
+        11,
+        5,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 2 vehicles \u2192 Green Time = 0.4 sec\nLane 2: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 85,
+      "timestamp": "2026-03-29T10:17:42.688166",
+      "image_filename": "screenshot_20241228-141034_png.rf.fe9b30f7a95a4b2fb744bbef7a83d4ed.jpg",
+      "lanes": [
+        6,
+        0,
+        10,
+        4
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 86,
+      "timestamp": "2026-03-29T10:18:27.406012",
+      "image_filename": "screenshot_20241228-141035_png.rf.a7a0205a8116c517470820fa484d4f96.jpg",
+      "lanes": [
+        6,
+        0,
+        12,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 87,
+      "timestamp": "2026-03-29T10:27:54.840324",
+      "image_filename": "screenshot_20241228-141041_png.rf.f8fd5a942897fe78511944d0ac9181c6.jpg",
+      "lanes": [
+        8,
+        0,
+        10,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 88,
+      "timestamp": "2026-03-29T10:28:43.547932",
+      "image_filename": "screenshot_20241228-131635_png.rf.6bac82cda9ad4d0d5491f8dd2196e5af.jpg",
+      "lanes": [
+        1,
+        14,
+        5,
+        6
+      ],
+      "total_vehicles": 26,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 14 vehicles \u2192 Green Time = 2.8 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 6 vehicles \u2192 Green Time = 1.2 sec\n"
+    },
+    {
+      "id": 89,
+      "timestamp": "2026-03-29T10:30:04.956311",
+      "image_filename": "screenshot_20241228-131630_png.rf.6dabda0f6f760c284cc38a1a95532213.jpg",
+      "lanes": [
+        8,
+        7,
+        5,
+        4
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 90,
+      "timestamp": "2026-03-29T10:32:31.292557",
+      "image_filename": "SC9403~1.JPG",
+      "lanes": [
+        8,
+        7,
+        5,
+        4
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 91,
+      "timestamp": "2026-03-29T10:33:28.839073",
+      "image_filename": "screenshot_20241228-131625_png.rf.5fdc0a689277de613fa5661ced09e528.jpg",
+      "lanes": [
+        9,
+        8,
+        1,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 92,
+      "timestamp": "2026-03-29T10:34:10.501070",
+      "image_filename": "screenshot_20241228-131624_png.rf.889f1a6917f35a5b74cc938730849134.jpg",
+      "lanes": [
+        9,
+        8,
+        1,
+        2
+      ],
+      "total_vehicles": 20,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 4: 2 vehicles \u2192 Green Time = 0.4 sec\n"
+    },
+    {
+      "id": 93,
+      "timestamp": "2026-03-29T10:35:13.999225",
+      "image_filename": "screenshot_20241228-131621_png.rf.d6a40ca6c4d6d800c5f9299d9388fd35.jpg",
+      "lanes": [
+        10,
+        8,
+        3,
+        1
+      ],
+      "total_vehicles": 22,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 94,
+      "timestamp": "2026-03-29T10:37:03.581001",
+      "image_filename": "SC9403~1.JPG",
+      "lanes": [
+        8,
+        7,
+        5,
+        4
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 95,
+      "timestamp": "2026-03-29T10:38:38.997636",
+      "image_filename": "screenshot_20241228-141047_png.rf.24799a576fafeffecef3db59c08e79b5.jpg",
+      "lanes": [
+        8,
+        0,
+        15,
+        0
+      ],
+      "total_vehicles": 23,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 96,
+      "timestamp": "2026-03-29T10:53:59.940241",
+      "image_filename": "screenshot_20241228-141107_png.rf.da060c78ed7a23f196c9e8c4dffc1f79.jpg",
+      "lanes": [
+        13,
+        0,
+        16,
+        0
+      ],
+      "total_vehicles": 29,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 97,
+      "timestamp": "2026-03-29T10:54:40.889911",
+      "image_filename": "screenshot_20241228-141057_png.rf.fcd8b80a71019839bc0204b4d49c5fee.jpg",
+      "lanes": [
+        13,
+        0,
+        16,
+        3
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 16 vehicles \u2192 Green Time = 3.2 sec\nLane 4: 3 vehicles \u2192 Green Time = 0.6 sec\n"
+    },
+    {
+      "id": 98,
+      "timestamp": "2026-03-29T10:55:46.586604",
+      "image_filename": "screenshot_20241228-141104_png.rf.d7e45e7fd4f178e89f669bd25ee8067e.jpg",
+      "lanes": [
+        13,
+        0,
+        17,
+        0
+      ],
+      "total_vehicles": 30,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 17 vehicles \u2192 Green Time = 3.4 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 99,
+      "timestamp": "2026-03-29T10:56:58.062439",
+      "image_filename": "screenshot_20241228-141116_png.rf.696514c45df4573a963544b34e027913.jpg",
+      "lanes": [
+        12,
+        6,
+        8,
+        4
+      ],
+      "total_vehicles": 30,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 100,
+      "timestamp": "2026-03-29T10:57:51.622999",
+      "image_filename": "screenshot_20241228-141118_png.rf.a1e4d5e09550f28e5611bd309417883f.jpg",
+      "lanes": [
+        13,
+        6,
+        10,
+        5
+      ],
+      "total_vehicles": 34,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 13 vehicles \u2192 Green Time = 2.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 10 vehicles \u2192 Green Time = 2.0 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 101,
+      "timestamp": "2026-03-29T10:58:31.148283",
+      "image_filename": "screenshot_20241228-134149_png.rf.70e49575b68233884cc52477a87efb4d.jpg",
+      "lanes": [
+        0,
+        8,
+        6,
+        15
+      ],
+      "total_vehicles": 29,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 3: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 4: 15 vehicles \u2192 Green Time = 3.0 sec\n"
+    },
+    {
+      "id": 102,
+      "timestamp": "2026-03-29T10:59:23.987195",
+      "image_filename": "screenshot_20241228-131610_png.rf.603d671483b91d7a780cbb70a9a8a5d8.jpg",
+      "lanes": [
+        5,
+        5,
+        11,
+        1
+      ],
+      "total_vehicles": 22,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 2: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 103,
+      "timestamp": "2026-03-29T11:00:28.093362",
+      "image_filename": "screenshot_20241228-131610_png.rf.603d671483b91d7a780cbb70a9a8a5d8.jpg",
+      "lanes": [
+        5,
+        5,
+        11,
+        1
+      ],
+      "total_vehicles": 22,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 2: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 104,
+      "timestamp": "2026-03-29T11:01:54.334043",
+      "image_filename": "SC9403~1.JPG",
+      "lanes": [
+        8,
+        7,
+        5,
+        4
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 105,
+      "timestamp": "2026-03-29T11:04:06.129889",
+      "image_filename": "screenshot_20241228-131607_png.rf.5498149be8a17fb362d227e851897f9a.jpg",
+      "lanes": [
+        5,
+        4,
+        12,
+        0
+      ],
+      "total_vehicles": 21,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 2: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 3: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 106,
+      "timestamp": "2026-03-29T11:05:01.908486",
+      "image_filename": "screenshot_20241228-131555_png.rf.15d624fbdb3f79d5c9bdc4e38edb6404.jpg",
+      "lanes": [
+        4,
+        1,
+        8,
+        19
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 3: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 4: 19 vehicles \u2192 Green Time = 3.8 sec\n"
+    },
+    {
+      "id": 107,
+      "timestamp": "2026-03-29T11:06:58.744718",
+      "image_filename": "SC9403~1.JPG",
+      "lanes": [
+        8,
+        7,
+        5,
+        4
+      ],
+      "total_vehicles": 24,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 4 vehicles \u2192 Green Time = 0.8 sec\n"
+    },
+    {
+      "id": 108,
+      "timestamp": "2026-03-29T11:07:38.157963",
+      "image_filename": "SCB994~1.JPG",
+      "lanes": [
+        4,
+        1,
+        8,
+        19
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 3: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 4: 19 vehicles \u2192 Green Time = 3.8 sec\n"
+    },
+    {
+      "id": 109,
+      "timestamp": "2026-03-29T11:08:47.089722",
+      "image_filename": "screenshot_20241228-131548_png.rf.4c48862fb8c1ba8b19599dd1f2860ae0.jpg",
+      "lanes": [
+        4,
+        0,
+        9,
+        20
+      ],
+      "total_vehicles": 33,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 4 vehicles \u2192 Green Time = 0.8 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 9 vehicles \u2192 Green Time = 1.8 sec\nLane 4: 20 vehicles \u2192 Green Time = 4.0 sec\n"
+    },
+    {
+      "id": 110,
+      "timestamp": "2026-03-29T11:09:34.998850",
+      "image_filename": "screenshot_20241228-131534_png.rf.76ea7c4f5a861d1ad3073b3aacd2d3e6.jpg",
+      "lanes": [
+        1,
+        12,
+        5,
+        19
+      ],
+      "total_vehicles": 37,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 19 vehicles \u2192 Green Time = 3.8 sec\n"
+    },
+    {
+      "id": 111,
+      "timestamp": "2026-03-29T11:13:44.601988",
+      "image_filename": "SC0340~1.JPG",
+      "lanes": [
+        1,
+        12,
+        5,
+        19
+      ],
+      "total_vehicles": 37,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 1 vehicles \u2192 Green Time = 0.2 sec\nLane 2: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 3: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 4: 19 vehicles \u2192 Green Time = 3.8 sec\n"
+    },
+    {
+      "id": 112,
+      "timestamp": "2026-03-30T10:11:08.742828",
+      "image_filename": "SC2C26~1.JPG",
+      "lanes": [
+        5,
+        15,
+        3,
+        15
+      ],
+      "total_vehicles": 38,
+      "winning_lane": 1,
+      "signal_output": "Lane 1: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 2: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 3: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 4: 15 vehicles \u2192 Green Time = 3.0 sec\n"
+    },
+    {
+      "id": 113,
+      "timestamp": "2026-03-30T10:32:05.159766",
+      "image_filename": "screenshot_20241228-131602_png.rf.8ffdac31152f5b25d820de525e88d41b.jpg",
+      "lanes": [
+        6,
+        3,
+        15,
+        8
+      ],
+      "total_vehicles": 32,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 15 vehicles \u2192 Green Time = 3.0 sec\nLane 4: 8 vehicles \u2192 Green Time = 1.6 sec\n"
+    },
+    {
+      "id": 114,
+      "timestamp": "2026-03-30T10:38:52.119521",
+      "image_filename": "screenshot_20241228-143802_png.rf.81d40863a26512b0a43b0d4f52302320.jpg",
+      "lanes": [
+        12,
+        5,
+        8,
+        5
+      ],
+      "total_vehicles": 30,
+      "winning_lane": 0,
+      "signal_output": "Lane 1: 12 vehicles \u2192 Green Time = 2.4 sec\nLane 2: 5 vehicles \u2192 Green Time = 1.0 sec\nLane 3: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 4: 5 vehicles \u2192 Green Time = 1.0 sec\n"
+    },
+    {
+      "id": 115,
+      "timestamp": "2026-03-30T14:13:44.983117",
+      "image_filename": "screenshot_20241228-141215_png.rf.714cc01587c6c5a78a161dd0d2b1d7d0.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 116,
+      "timestamp": "2026-04-01T05:30:05.215852",
+      "image_filename": "screenshot_20241228-141215_png.rf.714cc01587c6c5a78a161dd0d2b1d7d0.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    },
+    {
+      "id": 117,
+      "timestamp": "2026-04-04T10:48:41.313931",
+      "image_filename": "screenshot_20241228-141223_png.rf.d7415d746a27f0b5caf537e82d748b82.jpg",
+      "lanes": [
+        8,
+        6,
+        20,
+        1
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 2,
+      "signal_output": "Lane 1: 8 vehicles \u2192 Green Time = 1.6 sec\nLane 2: 6 vehicles \u2192 Green Time = 1.2 sec\nLane 3: 20 vehicles \u2192 Green Time = 4.0 sec\nLane 4: 1 vehicles \u2192 Green Time = 0.2 sec\n"
+    },
+    {
+      "id": 118,
+      "timestamp": "2026-11-10T21:37:05.576415",
+      "image_filename": "WhatsApp Image 2026-03-28 at 11.11.45 AM.jpeg",
+      "lanes": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_vehicles": 0,
+      "winning_lane": null,
+      "signal_output": "Lane 1: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 2: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 3: 0 vehicles \u2192 Green Time = 0.0 sec\nLane 4: 0 vehicles \u2192 Green Time = 0.0 sec\n"
+    },
+    {
+      "id": 119,
+      "timestamp": "2026-11-10T21:37:52.883725",
+      "image_filename": "screenshot_20241228-141215_png.rf.714cc01587c6c5a78a161dd0d2b1d7d0.jpg",
+      "lanes": [
+        7,
+        3,
+        11,
+        14
+      ],
+      "total_vehicles": 35,
+      "winning_lane": 3,
+      "signal_output": "Lane 1: 7 vehicles \u2192 Green Time = 1.4 sec\nLane 2: 3 vehicles \u2192 Green Time = 0.6 sec\nLane 3: 11 vehicles \u2192 Green Time = 2.2 sec\nLane 4: 14 vehicles \u2192 Green Time = 2.8 sec\n"
+    }
+  ],
+  "statistics": {
+    "total_vehicles": 8784,
+    "total_images": 119,
+    "lane_totals": [
+      526,
+      658,
+      3932,
+      3668
+    ]
+  }
+}

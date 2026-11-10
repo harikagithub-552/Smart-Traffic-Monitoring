@@ -1,0 +1,221 @@
+{% extends 'base.html' %}
+{% block title %}About — Smart Traffic System{% endblock %}
+{% block content %}
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-br from-slate-800 via-slate-700 to-slate-900 text-white py-16">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-10"></div>
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">About Smart Traffic AI</h1>
+    <p class="text-xl text-slate-300 max-w-2xl mx-auto">Revolutionizing traffic management with artificial intelligence and computer vision</p>
+  </div>
+</section>
+
+<section class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
+  <!-- Overview -->
+  <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl mb-8">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white text-xl">
+        <i class="fas fa-info-circle"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-slate-900">Project Overview</h2>
+    </div>
+    <p class="text-slate-700 leading-relaxed text-lg mb-4">
+      This web application demonstrates an <span class="font-bold text-emerald-600">AI-powered, density-based traffic signal control</span> system.
+      It leverages state-of-the-art <span class="font-semibold">YOLO (You Only Look Once)</span> object detection models to identify vehicles 
+      in traffic intersection images, automatically counts lane-wise density by dividing the scene into quadrants, 
+      and proposes intelligent <em class="text-emerald-600">green time</em> suggestions based on vehicle distribution.
+    </p>
+    <p class="text-slate-700 leading-relaxed text-lg">
+      The system is designed to reduce traffic congestion, improve flow efficiency, and provide data-driven insights 
+      for traffic management decisions. By analyzing real-time or captured traffic images, the system can help 
+      optimize signal timing and reduce waiting times at intersections.
+    </p>
+  </div>
+
+  <!-- Key Features -->
+  <div class="rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 to-indigo-50 p-8 shadow-xl mb-8">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-xl">
+        <i class="fas fa-star"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-slate-900">Key Features</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200">
+        <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-brain text-emerald-600"></i>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">YOLO-Based Detection</h3>
+          <p class="text-sm text-slate-600">Advanced computer vision for accurate vehicle detection</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200">
+        <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-th text-blue-600"></i>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Quadrant Analysis</h3>
+          <p class="text-sm text-slate-600">Automatic lane-wise density estimation</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200">
+        <div class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-paint-brush text-purple-600"></i>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Visual Annotations</h3>
+          <p class="text-sm text-slate-600">Beautiful annotated results for validation</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-slate-200">
+        <div class="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
+          <i class="fas fa-mobile-alt text-orange-600"></i>
+        </div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Responsive Design</h3>
+          <p class="text-sm text-slate-600">Modern UI that works on all devices</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Technology Stack -->
+  <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl mb-8">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-xl">
+        <i class="fas fa-code"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-slate-900">Technology Stack</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+        <h3 class="font-bold text-slate-900 mb-2">Backend</h3>
+        <ul class="space-y-2 text-sm text-slate-600">
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Flask Web Framework</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Python 3.x</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>OpenCV (cv2)</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>NumPy</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+        <h3 class="font-bold text-slate-900 mb-2">AI/ML</h3>
+        <ul class="space-y-2 text-sm text-slate-600">
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Ultralytics YOLO</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Computer Vision</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Object Detection</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Image Processing</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+        <h3 class="font-bold text-slate-900 mb-2">Frontend</h3>
+        <ul class="space-y-2 text-sm text-slate-600">
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>HTML5 & CSS3</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Tailwind CSS</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>JavaScript</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Font Awesome Icons</li>
+        </ul>
+      </div>
+      <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+        <h3 class="font-bold text-slate-900 mb-2">Features</h3>
+        <ul class="space-y-2 text-sm text-slate-600">
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Real-time Processing</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Image Upload & Analysis</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Visual Annotations</li>
+          <li><i class="fas fa-check text-emerald-500 mr-2"></i>Signal Timing Simulation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- How It Works -->
+  <div class="rounded-3xl border border-slate-200 bg-gradient-to-br from-emerald-50 to-teal-50 p-8 shadow-xl mb-8">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white text-xl">
+        <i class="fas fa-cogs"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-slate-900">How It Works</h2>
+    </div>
+    <div class="space-y-4">
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold">1</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Image Upload</h3>
+          <p class="text-slate-600">Users upload a traffic intersection image through the web interface.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold">2</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Vehicle Detection</h3>
+          <p class="text-slate-600">YOLO model processes the image and detects all vehicles with bounding boxes.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-purple-500 text-white flex items-center justify-center font-bold">3</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Quadrant Division</h3>
+          <p class="text-slate-600">The image is divided into four quadrants (lanes) based on the center point.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">4</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Density Calculation</h3>
+          <p class="text-slate-600">Vehicles are counted per quadrant to determine lane-wise density.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-cyan-500 text-white flex items-center justify-center font-bold">5</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Signal Timing</h3>
+          <p class="text-slate-600">Green time is calculated proportionally: <code class="bg-white px-2 py-1 rounded text-sm">time ≈ vehicles / 5 seconds</code></p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold">6</div>
+        <div>
+          <h3 class="font-bold text-slate-900 mb-1">Visualization</h3>
+          <p class="text-slate-600">Annotated image with lane divisions, vehicle detections, and winning lane highlight.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Disclaimer -->
+  <div class="rounded-3xl border-2 border-amber-200 bg-gradient-to-br from-amber-50 to-yellow-50 p-8 shadow-xl">
+    <div class="flex items-start gap-4">
+      <div class="w-12 h-12 rounded-xl bg-amber-500 flex items-center justify-center text-white text-xl flex-shrink-0">
+        <i class="fas fa-exclamation-triangle"></i>
+      </div>
+      <div>
+        <h2 class="text-2xl font-bold text-slate-900 mb-3">Important Disclaimer</h2>
+        <p class="text-slate-700 leading-relaxed mb-3">
+          The signal timing rule used in this demonstration (<code class="px-2 py-1 rounded bg-white border border-amber-200 font-mono text-sm">green time ≈ vehicles / 5 seconds</code>)
+          is a <span class="font-semibold">simplified demonstration logic</span> designed for educational and proof-of-concept purposes.
+        </p>
+        <p class="text-slate-700 leading-relaxed">
+          <strong>Real-world deployments</strong> require:
+        </p>
+        <ul class="list-disc pl-6 mt-2 space-y-1 text-slate-700">
+          <li>Calibration with traffic engineering standards and regulations</li>
+          <li>Integration with real-time video feeds and traffic sensors</li>
+          <li>Consideration of pedestrian crossings, emergency vehicles, and special events</li>
+          <li>Extensive testing and validation in controlled environments</li>
+          <li>Compliance with local traffic management policies</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="mt-8 text-center">
+    <a href="{{ url_for('predict') }}" class="inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-8 py-4 text-lg font-bold text-white shadow-2xl shadow-emerald-500/50 transition-all hover:scale-105">
+      <i class="fas fa-rocket"></i>
+      <span>Try It Now</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+</section>
+{% endblock %}
+

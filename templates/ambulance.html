@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+{% block title %}Ambulance Detection — Smart Traffic System{% endblock %}
+{% block content %}
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-br from-rose-600 via-red-600 to-rose-700 text-white py-16">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1587745416684-47953f16f02f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Ambulance Detection</h1>
+    <p class="text-xl text-rose-50 max-w-2xl mx-auto">Upload a scene image to detect emergency vehicles and identify priority lane (Lanes 1–4)</p>
+  </div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Left Column: Upload Form -->
+    <div class="lg:col-span-5 space-y-6">
+      <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl hover:shadow-2xl transition-shadow">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center text-white text-xl">
+            <i class="fas fa-ambulance"></i>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold text-slate-900">Upload Image</h2>
+            <p class="text-sm text-slate-500">JPG, PNG, or WebP format</p>
+          </div>
+        </div>
+
+        <form class="space-y-6" method="POST" enctype="multipart/form-data" id="ambulanceUploadForm">
+          <div class="relative">
+            <input
+              class="block w-full text-sm text-slate-700 file:mr-4 file:rounded-xl file:border-0 file:bg-gradient-to-r file:from-rose-500 file:to-red-600 file:px-6 file:py-3 file:text-white file:font-semibold hover:file:from-rose-600 hover:file:to-red-700 file:cursor-pointer file:transition-all file:shadow-lg"
+              type="file"
+              name="file"
+              accept="image/*"
+              required
+              id="fileInput"
+              onchange="previewImage(this)">
+            <div id="imagePreview" class="mt-4 hidden">
+              <img id="previewImg" src="" alt="Preview" class="w-full rounded-xl border-2 border-slate-200">
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="w-full inline-flex items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 px-6 py-4 text-white font-bold shadow-lg shadow-rose-500/30 transition-all hover:scale-105">
+            <i class="fas fa-search"></i>
+            <span>Detect Emergency Vehicle</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="rounded-3xl border border-slate-200 bg-gradient-to-br from-rose-50 to-red-50 p-8 shadow-lg">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center text-white text-xl">
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">How It Works</h3>
+        </div>
+        <ul class="space-y-4 text-slate-700">
+          <li class="flex items-start gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-rose-500 text-white flex items-center justify-center text-xs font-bold">1</span>
+            <span>Upload a traffic or road image (this page uses dedicated emergency-vehicle detection only—no general YOLO vehicle pass).</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-rose-500 text-white flex items-center justify-center text-xs font-bold">2</span>
+            <span>The scene is split into four quadrants (Lanes 1–4) from the image center.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-rose-500 text-white flex items-center justify-center text-xs font-bold">3</span>
+            <span>Detections are drawn in <strong class="text-red-600">red</strong> for emergency-related classes.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column: Results -->
+    <div class="lg:col-span-7">
+      <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-rose-600 flex items-center justify-center text-white text-xl">
+            <i class="fas fa-heart-pulse"></i>
+          </div>
+          <h2 class="text-2xl font-bold text-slate-900">Detection Result</h2>
+        </div>
+
+        {% if output_img %}
+          <div class="mb-8">
+            <div class="relative rounded-2xl overflow-hidden border-2 border-slate-200 shadow-lg">
+              <img src="/{{ output_img }}" alt="Ambulance detection output" class="w-full h-auto">
+              <div class="absolute top-4 left-4 bg-gradient-to-r from-rose-600 to-red-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg">
+                <i class="fas fa-check-circle mr-2"></i>Processing Complete
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100 p-6 border border-slate-200 mb-6">
+            <div class="flex items-center gap-2 mb-4">
+              <i class="fas fa-road text-rose-600"></i>
+              <h3 class="font-bold text-lg text-slate-900">Lane &amp; Status</h3>
+            </div>
+            {% if ambulance_lane %}
+              <p class="text-lg text-slate-800">
+                <span class="font-bold text-red-700">Lane {{ ambulance_lane }}</span>
+                <span class="text-slate-600"> — </span>
+                <span class="font-semibold">{{ message }}</span>
+              </p>
+            {% else %}
+              <p class="text-lg font-semibold text-slate-700">{{ message }}</p>
+            {% endif %}
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="{{ url_for('ambulance_page') }}" class="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 px-6 py-3 text-white font-semibold shadow-lg transition-all hover:scale-105">
+              <i class="fas fa-redo"></i>
+              <span>Detect Another Image</span>
+            </a>
+            <a href="{{ url_for('predict') }}" class="flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-6 py-3 text-white font-semibold shadow-lg transition-all hover:scale-105">
+              <i class="fas fa-traffic-light"></i>
+              <span>Traffic Prediction</span>
+            </a>
+          </div>
+        {% else %}
+          <div class="text-center py-16">
+            <div class="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-rose-100 to-red-100 mb-6">
+              <i class="fas fa-ambulance text-4xl text-rose-400"></i>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2">No Result Yet</h3>
+            <p class="text-slate-600 mb-6">Upload an image to run ambulance / emergency vehicle detection</p>
+            <div class="flex items-center justify-center gap-2 text-slate-400">
+              <i class="fas fa-arrow-up"></i>
+              <span class="text-sm">Use the form on the left to upload an image</span>
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+function previewImage(input) {
+  const preview = document.getElementById('imagePreview');
+  const previewImg = document.getElementById('previewImg');
+
+  if (input.files && input.files[0]) {
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      previewImg.src = e.target.result;
+      preview.classList.remove('hidden');
+    };
+    reader.readAsDataURL(input.files[0]);
+  } else {
+    preview.classList.add('hidden');
+  }
+}
+
+document.getElementById('ambulanceUploadForm').addEventListener('submit', function() {
+  const submitBtn = this.querySelector('button[type="submit"]');
+  submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> <span>Detecting...</span>';
+  submitBtn.disabled = true;
+});
+</script>
+{% endblock %}

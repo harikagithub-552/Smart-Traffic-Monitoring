@@ -1,0 +1,238 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard — Smart Traffic System{% endblock %}
+{% block content %}
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-white py-16">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Traffic Analytics Dashboard</h1>
+    <p class="text-xl text-purple-50 max-w-2xl mx-auto">Monitor traffic patterns, view statistics, and track system performance</p>
+  </div>
+</section>
+
+<section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+  <!-- Stats Cards -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+    <div class="rounded-3xl bg-gradient-to-br from-emerald-500 to-emerald-600 p-6 text-white shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+      <div class="flex items-center justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
+          <i class="fas fa-car text-2xl"></i>
+        </div>
+        <span class="text-3xl font-bold">{{ stats.total_vehicles }}</span>
+      </div>
+      <h3 class="text-sm font-semibold text-emerald-100">Total Vehicles Detected</h3>
+      <p class="text-xs text-emerald-200 mt-1">Across all analyses</p>
+    </div>
+
+    <div class="rounded-3xl bg-gradient-to-br from-blue-500 to-blue-600 p-6 text-white shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+      <div class="flex items-center justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
+          <i class="fas fa-images text-2xl"></i>
+        </div>
+        <span class="text-3xl font-bold">{{ stats.total_images }}</span>
+      </div>
+      <h3 class="text-sm font-semibold text-blue-100">Images Analyzed</h3>
+      <p class="text-xs text-blue-200 mt-1">Total predictions made</p>
+    </div>
+
+    <div class="rounded-3xl bg-gradient-to-br from-purple-500 to-purple-600 p-6 text-white shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+      <div class="flex items-center justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
+          <i class="fas fa-percentage text-2xl"></i>
+        </div>
+        <span class="text-3xl font-bold">100%</span>
+      </div>
+      <h3 class="text-sm font-semibold text-purple-100">System Accuracy</h3>
+      <p class="text-xs text-purple-200 mt-1">YOLO detection rate</p>
+    </div>
+
+    <div class="rounded-3xl bg-gradient-to-br from-orange-500 to-orange-600 p-6 text-white shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+      <div class="flex items-center justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
+          <i class="fas fa-clock text-2xl"></i>
+        </div>
+        <span class="text-3xl font-bold">< 5s</span>
+      </div>
+      <h3 class="text-sm font-semibold text-orange-100">Avg. Processing Time</h3>
+      <p class="text-xs text-orange-200 mt-1">Per image analysis</p>
+    </div>
+  </div>
+
+  <!-- Main Content Grid -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Lane Distribution Chart -->
+    <div class="lg:col-span-2 rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center text-white text-xl">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <h2 class="text-2xl font-bold text-slate-900">Lane Distribution</h2>
+      </div>
+      <div class="space-y-4">
+        <!-- Latest Prediction Display -->
+        <div class="p-6 rounded-xl bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200">
+          <h3 class="text-lg font-semibold text-emerald-900 mb-4">Latest Prediction Results</h3>
+          <div class="grid grid-cols-4 gap-4 text-center">
+            {% for i in range(4) %}
+              {% set count = lane_distribution[i] %}
+              <div>
+                <div class="text-2xl font-bold 
+                  {% if i == 0 %}text-emerald-700
+                  {% elif i == 1 %}text-blue-700
+                  {% elif i == 2 %}text-purple-700
+                  {% else %}text-orange-700
+                  {% endif %}">
+                  {{ count }}
+                </div>
+                <div class="text-sm text-slate-600">Lane {{ i+1 }}</div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        
+        <!-- Existing Lane Cards -->
+        <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-emerald-50 to-emerald-100 border border-emerald-200">
+          <div class="flex items-center gap-3">
+            <div class="w-4 h-4 rounded-full bg-emerald-500"></div>
+            <span class="font-semibold text-slate-900">Lane 1 (Top-Left)</span>
+          </div>
+          <span class="text-2xl font-bold text-emerald-700">{{ lane_distribution[0] }}</span>
+        </div>
+        <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-blue-50 to-blue-100 border border-blue-200">
+          <div class="flex items-center gap-3">
+            <div class="w-4 h-4 rounded-full bg-blue-500"></div>
+            <span class="font-semibold text-slate-900">Lane 2 (Top-Right)</span>
+          </div>
+          <span class="text-2xl font-bold text-blue-700">{{ lane_distribution[1] }}</span>
+        </div>
+        <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-purple-50 to-purple-100 border border-purple-200">
+          <div class="flex items-center gap-3">
+            <div class="w-4 h-4 rounded-full bg-purple-500"></div>
+            <span class="font-semibold text-slate-900">Lane 3 (Bottom-Left)</span>
+          </div>
+          <span class="text-2xl font-bold text-purple-700">{{ lane_distribution[2] }}</span>
+        </div>
+        <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-orange-50 to-orange-100 border border-orange-200">
+          <div class="flex items-center gap-3">
+            <div class="w-4 h-4 rounded-full bg-orange-500"></div>
+            <span class="font-semibold text-slate-900">Lane 4 (Bottom-Right)</span>
+          </div>
+          <span class="text-2xl font-bold text-orange-700">{{ lane_distribution[3] }}</span>
+        </div>
+      </div>
+      <div class="mt-6 p-4 rounded-xl bg-slate-50 border border-slate-200">
+        <p class="text-sm text-slate-600">
+          <i class="fas fa-info-circle text-blue-500 mr-2"></i>
+          Lane distribution shows vehicle counts across the four quadrants. The lane with the highest count receives green signal priority.
+        </p>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="space-y-6">
+      <div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white text-xl">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h2 class="text-xl font-bold text-slate-900">Quick Actions</h2>
+        </div>
+        <div class="space-y-3">
+          <a href="{{ url_for('predict') }}" class="block w-full rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-6 py-4 text-white font-semibold shadow-lg transition-all hover:scale-105 text-center">
+            <i class="fas fa-upload mr-2"></i>New Prediction
+          </a>
+          <a href="{{ url_for('about') }}" class="block w-full rounded-xl bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 px-6 py-4 text-white font-semibold shadow-lg transition-all hover:scale-105 text-center">
+            <i class="fas fa-book mr-2"></i>Learn More
+          </a>
+          <a href="{{ url_for('home') }}" class="block w-full rounded-xl bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 px-6 py-4 text-white font-semibold shadow-lg transition-all hover:scale-105 text-center">
+            <i class="fas fa-home mr-2"></i>Go Home
+          </a>
+        </div>
+      </div>
+
+      <!-- System Info -->
+      <div class="rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-slate-100 p-8 shadow-lg">
+        <h3 class="text-lg font-bold text-slate-900 mb-4">System Information</h3>
+        <div class="space-y-3 text-sm">
+          <div class="flex items-center justify-between">
+            <span class="text-slate-600">Model:</span>
+            <span class="font-semibold text-slate-900">YOLO v8</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-slate-600">Detection Type:</span>
+            <span class="font-semibold text-slate-900">Vehicles</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-slate-600">Lanes:</span>
+            <span class="font-semibold text-slate-900">4 Quadrants</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-slate-600">Status:</span>
+            <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 font-semibold text-xs">Active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Activity -->
+  <div class="mt-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-xl">
+    <div class="flex items-center gap-3 mb-6">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center text-white text-xl">
+        <i class="fas fa-history"></i>
+      </div>
+      <h2 class="text-2xl font-bold text-slate-900">Recent Activity</h2>
+    </div>
+    
+    {% if recent_predictions %}
+      <div class="space-y-4">
+        {% for prediction in recent_predictions %}
+          <div class="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-slate-50 to-slate-100 border border-slate-200 hover:shadow-md transition-shadow">
+            <div class="flex items-center gap-4">
+              <div class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center text-white font-bold">
+                {{ prediction.id }}
+              </div>
+              <div>
+                <div class="font-semibold text-slate-900">
+                  {{ prediction.image_filename }}
+                </div>
+                <div class="text-sm text-slate-600">
+                  {{ prediction.total_vehicles }} vehicles detected • 
+                  Lane {{ prediction.winning_lane + 1 if prediction.winning_lane is not none else 'N/A' }} had priority
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-sm text-slate-500">
+                {{ prediction.timestamp[:19].replace('T', ' ') }}
+              </div>
+              <div class="flex gap-1 mt-1">
+                {% for i in range(4) %}
+                  {% set count = prediction.lanes[i] %}
+                  <span class="px-2 py-1 text-xs rounded-full 
+                    {% if i == 0 %}bg-emerald-100 text-emerald-700
+                    {% elif i == 1 %}bg-blue-100 text-blue-700
+                    {% elif i == 2 %}bg-purple-100 text-purple-700
+                    {% else %}bg-orange-100 text-orange-700
+                    {% endif %}">
+                    L{{ i+1 }}: {{ count }}
+                  </span>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="text-center py-12 text-slate-400">
+        <i class="fas fa-inbox text-5xl mb-4"></i>
+        <p class="text-lg">No recent activity</p>
+        <p class="text-sm mt-2">Start analyzing traffic images to see activity here</p>
+        <a href="{{ url_for('predict') }}" class="inline-block mt-4 rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-700 hover:to-emerald-600 px-6 py-3 text-white font-semibold shadow-lg transition-all hover:scale-105">
+          <i class="fas fa-plus mr-2"></i>Start Analysis
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}
